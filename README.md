@@ -1,6 +1,6 @@
 # CO-ISSC:Core Ontology-based Incremental Semi-Supervised Clustering
 
-This is the pipeline we are going to pulish on KES 2024 conference, with a core ontology as prior knowledge, combined with UMAP and adapted C-DBSCAN.
+This is the pipeline we are going to publish on KES 2024 conference, with a core ontology as prior knowledge, combined with UMAP and adapted C-DBSCAN to cluster the terms from an AI ACT regulation corpus.
 
 <div align=center> 
 <img src="./CO-ISSC/pipeline.png" width = 75%>
@@ -9,30 +9,41 @@ This is the pipeline we are going to pulish on KES 2024 conference, with a core 
 # Project Structure
 
 This project includes the three files:
- the tow files that I have already added (i wil explain the content of these two files), 
+
  1. file 1
  2. file 2
  3. source code and dataset:
    
-   Below is the organization of the code.
-``` bash
+ ##  Below is the organization of the code.
+``` 
 ├── Data : dataset
 ├── helpers 
-    └── Term
-        └── CoreConcept.py : core concept extend Term class
-        └── Term.py :  class Term and its funciton
-        └── Vocabulary.py: vocabulary with terms and CoreConcept
-    └── CDBSCAN.py : adaptation of CDBSCAN
-    └── Corpus.py : the corpus class with vocabulary
-    └── Model.py : pipeline 
+│   └── Term
+│   │   └── CoreConcept.py : class of core concept extending Term class
+│   │   └── Term.py :  class of Term 
+│   │   └── Vocabulary.py: vocabulary with terms and CoreConcept
+│   └── CDBSCAN.py : adaptation of CDBSCAN
+│   └── Corpus.py : the corpus class with vocabulary
+│   └── Cosine.py : the SMBM implementation
+│   └── Model.py : pipeline 
 ├── Model : SentencBERT configurations, not needed
-├── tools : tools function to exact terms.
+├── tools : tool functions to exact terms.
 ├── prosition.ipynb : main notebook 
-├── mytest.ipynb : test notebook
+└── mytest.ipynb : testing notebook
 ```
 
+## Major Algorithms/Libraries
+
+* [SentenceBERT](https://sbert.net/) : a powerful model designed for generating semantic sentence-level(not word-level) embeddings for every term and core concept. As the terms can be multi-words, we choose SentenceBERT as the PLM for the pipeline. The dimension of output embedding is 384, rather than 768 like in BERT.
+
+* [Umap](https://umap-learn.readthedocs.io/en/latest/) : a dimension redution algorithm maintaining well both the global and local structure. In this pipeline, dimension is reduced from 384 to 10.
+
+* CDBSCAN: constraint based DBSCAN, introducing two kind of constraints, *Must-link* and *Cannot-link*. We adapted it from [base version](https://link.springer.com/content/pdf/10.1007/978-3-540-72530-5_25.pdf) to fit the core concept based clustering. At each iteration it receives the reduce embedding and clusters the terms leveraging the Core Concepts.
+
+* [SMBM](doi/10.1145/3106426.3109052) : as introduced in the paper, cosine distance is used to weigh the  similarity between each term to core concepts.
+
 ## Getting started
-Before launching the code, you should step into the source code directory and install neccesary pakages as listed in [requirements.txt](./CO-ISSC/requirements.txt).
+Before launching the code, you should step into the source code directory and install necessary pakages as listed in [requirements.txt](./CO-ISSC/requirements.txt).
 ```bash
 pip install -r requirements.txt
 ```
