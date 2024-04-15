@@ -353,8 +353,9 @@ class Model():
             return
         if self.clusterer_type == "kmeans":
             init_centers = np.array([self.embedding[self.corpus.vocabulary.get_index(cc)] for cc in self.corpus.vocabulary.core_concepts])
-            self.clusterer = KMeans(n_clusters=7, init=init_centers, random_state=42)
-            # self.clusterer = KMeans(n_clusters=7, random_state=42)
+            self.clusterer = KMeans(n_clusters=7, init=init_centers, random_state=42) # init with core concepts
+            # self.clusterer = KMeans(n_clusters=7, random_state=42) # keamns++ initialization
+            # self.clusterer = KMeans(n_clusters=7, init="random",random_state=42) # random initialization
             return
         
         if self.clusterer_type == "cosine":
@@ -490,11 +491,11 @@ class Model():
 
         if self.clusterer_type in ["dbscan","kmeans"]:
             assigned_labels,conf_matrix = self.__reorder_confusion_matrix(conf_matrix)
-            # temp_y_pred_list = np.copy(y_pred_list)
-            # for i in range(len(y_pred_list)):
-            #     temp_y_pred_list[i] = assigned_labels[y_pred_list[i]]
-            # y_pred_list = temp_y_pred_list
-            # y_axis_labels = [ "Cluster "+str(i+1) for i in range(len(set(self.y_pred)))]
+            temp_y_pred_list = np.copy(y_pred_list)
+            for i in range(len(y_pred_list)):
+                temp_y_pred_list[i] = assigned_labels[y_pred_list[i]]
+            y_pred_list = temp_y_pred_list
+            y_axis_labels = [ "Cluster "+str(i+1) for i in range(len(set(self.y_pred)))]
         sns.heatmap(conf_matrix, xticklabels=x_axis_labels, yticklabels=y_axis_labels).set(title='Confusion matrix ' + "(recall)" if normalize == "true" else "(precision)")
         plt.show()
 
