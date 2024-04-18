@@ -59,7 +59,8 @@ class Corpus() :
         self.model          : SentenceTransformer   = model
 
         self.core_concepts = core_concepts
-        
+        # replace "Acrtifiial Intelligence" by "AI" in the ontology
+        self.ontology[columns[1]] = self.ontology[columns[1]].apply(lambda x: "artificial intelligence" if x == "anythingai" else x)
         self._add_prefix(prefix=prefix.lower(),column=columns[1])
 
         if self.core_concepts != None :
