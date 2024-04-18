@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#"
+     xml:base="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#have_duties_related_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#have_duties_related_to">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_act_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_act_on">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_be_controlled_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_be_controlled_on">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_be_processed_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_be_processed_on">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_be_put_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_be_put_on">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_create -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_create">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_develop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_develop">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_impact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_impact">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_process -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_process">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_regulate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_regulate">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#may_use">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_be_protected_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_be_protected_from">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_comply_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_comply_with">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_mitigate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_mitigate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_obey -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_obey">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_regulate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#must_regulate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#AI_Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#AI_Domain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#AI_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#AI_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#AI_System_Development_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#AI_System_Development_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anonymous_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anonymous_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Anything_AI"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Authority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Authority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data_Risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law_Text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law_Text">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Personal_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Personal_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Regulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Regulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Regulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Regulator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Market"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#System_Risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#System_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#User">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harzallah-m/ontologies/2023/0/untitled-ontology-27#Organisation_or_Person"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
