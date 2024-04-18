@@ -1,6 +1,7 @@
 # CO-ISSC:Core Ontology-based Incremental Semi-Supervised Clustering
 
-The CO-ISSC pipeline we are going to publish on KES 2024 conference, with a core ontology as prior knowledge, combined with UMAP and adapted C-DBSCAN to cluster the terms from an AI ACT regulation corpus.
+The CO-ISSC pipeline combines, in an incremental process, a semi-supervised dimension reduction technique (semi-supervised UMAP) and a semi-supervised clustering method (adapted C-DBSCAN). Additionally, it uses two types of prior knowledge: (1) a PLM, and (2) a core ontology. The figure below shows its architecture. The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act terminology.
+
 
 <div align=center> 
 <img src="./CO-ISSC/pipeline.png" width = 75%>
@@ -11,7 +12,7 @@ The CO-ISSC pipeline we are going to publish on KES 2024 conference, with a core
 This project includes the three files:
 
  1. AI ACT Core ontology.
- 2. The AI ACT terminology including 900 terms that have been extracted, filtered, and manually classified according to core concepts.
+ 2. The AI ACT terminology including 900 terms that have been extracted, filtered, and manually classified according to AI Act core concepts.
  3. Source code and dataset:
    
  ##  Below is the organization of the code.
