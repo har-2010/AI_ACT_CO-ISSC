@@ -1,7 +1,7 @@
 # CO-ISSC: Core Ontology-based Incremental Semi-Supervised Clustering
 
 The CO-ISSC pipeline combines, in an incremental process, a semi-supervised dimension reduction technique (semi-supervised UMAP) and a semi-supervised clustering method (adapted C-DBSCAN). Additionally, it uses two types of prior knowledge: (1) a PLM, and (2) a core ontology. The figure below shows its architecture. 
-The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act benchmark, as described in the paper. It is also applied on a Computer Science copora (see the results of the experiments in mytest.ipynb).  
+The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act benchmark, as described in the paper. It is also applied on a Computer Science copora (the link of the hao's paper).  The results of computer science experiments can be found in mytest.ipynb.  
 
 
 <div align=center> 
@@ -56,7 +56,7 @@ Then, open the file [proposition.ipynb](./CO-ISSC/proposition.ipynb) and run it.
 
 Also, you can see all the experiments conducted in [mytest.ipynb](./CO-ISSC/mytest.ipynb) on the two corpora: AI ACT corpus and Computer Science corpora.  
 
-Among these experiments, you can find the content of ecah cluster. In addition, for each iteartion setting a stacked hitogram is provided describing the distribution of clusters in each class. In the following two histograms, one is about the the AI ACT corpus and the second is about the Computer Science corpora.
+Among these experiments, you can find the content of ecah cluster. In addition, for each iteartion setting a stacked hitogram is provided describing the number of terms of each cluster in each class. In the following two histograms, one is about the the AI ACT corpus and the second is about the Computer Science corpora.
 
 
 
