@@ -51,7 +51,16 @@ pip install -r requirements.txt
 
 Then, open the file [proposition.ipynb](./CO-ISSC/proposition.ipynb) and run it.
 
-Also, you can see all the experiments conducted in [mytest.ipynb](./CO-ISSC/mytest.ipynb)
+Also, you can see all the experiments conducted in [mytest.ipynb](./CO-ISSC/mytest.ipynb) on the two corpora: AI ACT corpus and Computer Science corpora.  
+
+Among these experiments, you can find the content of ecah cluster. In addition, for each iteartion setting a stacked hitogram is provided describing the distribution of clusters in each class. In the following two histograms, one is about the the AI ACT corpus and the second is about the Computer Science corpora.
+
+
+
+tO ADD the HITOGRAMS
+Distribution of clusters in ecah class for Computer Science
+tO ADD the HITOGRAMS
+Distribution of clusters in ecah class for AI ACT
 
 
 
