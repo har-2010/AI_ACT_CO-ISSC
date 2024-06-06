@@ -14,7 +14,9 @@ This project includes the three files:
 
  1. AI ACT Core ontology.
  2. The AI ACT terminology including 900 terms that have been extracted, filtered, and manually classified according to AI Act core concepts.
- 3. Source code and dataset:
+ 3. Computer Science Core ontology
+ 4. Computer Science terminology including 2560 terms classified according to the Computer Science core concepts
+ 5. Source code and dataset:
    
  ##  Below is the organization of the code.
 ``` 
