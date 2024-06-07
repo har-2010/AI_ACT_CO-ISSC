@@ -1,9 +1,7 @@
 # CO-ISSC: Core Ontology-based Incremental Semi-Supervised Clustering
 
 The CO-ISSC pipeline combines, in an incremental process, a semi-supervised dimension reduction technique (semi-supervised UMAP) and a semi-supervised clustering method (adapted C-DBSCAN). Additionally, it uses two types of prior knowledge: (1) a PLM, and (2) a core ontology. The figure below shows its architecture. 
-The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act benchmark, as described in the paper. It is also applied onto a Computer Science copora ([Huang et al.](https://doi.org/10.1016/j.procs.2021.08.023)).  The results of computer science experiments can be found in mytest.ipynb.  
-
-
+The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act benchmark, as described in the paper. It is also applied to Computer Science corpora ([Huang et al.](https://doi.org/10.1016/j.procs.2021.08.023)). The results of these experiments can be found in the mytest.ipynb notebook.
 <div align=center> 
 <img src="./CO-ISSC/pipeline.png" width = 75%>
 </div> 
