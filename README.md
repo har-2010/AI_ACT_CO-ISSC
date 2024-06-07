@@ -1,14 +1,14 @@
 # CO-ISSC: Core Ontology-based Incremental Semi-Supervised Clustering
 
 The CO-ISSC pipeline combines, in an incremental process, a semi-supervised dimension reduction technique (semi-supervised UMAP) and a semi-supervised clustering method (adapted C-DBSCAN). Additionally, it uses two types of prior knowledge: (1) a PLM, and (2) a core ontology. The figure below shows its architecture. 
-The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act benchmark, as described in the paper. It is also applied on a Computer Science copora ([Huang et al.](https://doi.org/10.1016/j.procs.2021.08.023)).  The results of computer science experiments can be found in mytest.ipynb.  
+The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act benchmark, as described in the paper. It is also applied onto a Computer Science copora ([Huang et al.](https://doi.org/10.1016/j.procs.2021.08.023)).  The results of computer science experiments can be found in mytest.ipynb.  
 
 
 <div align=center> 
 <img src="./CO-ISSC/pipeline.png" width = 75%>
 </div> 
-<div style="text-align:center">
-The architecture of our pipeline 
+<div align=center>
+Fig: The architecture of our pipeline 
 </div>
 
 # Project Structure
@@ -35,7 +35,7 @@ This project includes the three files:
 │   └── Model.py : pipeline 
 ├── Model : SentencBERT configurations, not needed
 ├── tools : tool functions to exact terms.
-├── prosition.ipynb : main notebook 
+├── prosition.ipynb : pipeline execution notebook 
 └── mytest.ipynb : testing notebook
 ```
 
@@ -64,11 +64,11 @@ Among these experiments, you can find the content of ecah cluster. In addition, 
 
 
 <div align=center> 
-<img src="./CO-ISSC/AI ACT histogram.png" width = 40%>
-<img src="./CO-ISSC/CS histogram.png" width = 40%>
+<img src="./CO-ISSC/AI ACT histogram.png" width = 49%>
+<img src="./CO-ISSC/CS histogram.png" width = 49%>
 </div> 
-<div style="text-align:center">
-Distribution of clusters in ecah class: left is AI ACT corpus and right is Computer Science corpora. 
+<div align=center>
+Fig: Distribution of clusters in ecah class: left is AI ACT corpus and right is Computer Science corpora. 
 </div>
 
 
