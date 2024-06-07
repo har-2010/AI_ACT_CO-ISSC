@@ -57,7 +57,7 @@ Then, open the file [proposition.ipynb](./CO-ISSC/proposition.ipynb) and run it 
 
 Also, you can see all the experiments conducted in [mytest.ipynb](./CO-ISSC/mytest.ipynb) on the two corpora: AI ACT corpus and Computer Science corpora.  
 
-Among these experiments, you can find the content of ecah cluster. In addition, for each iteartion setting a stacked hitogram is provided describing the number of terms of each cluster in each class. In the following two histograms, one is about the the AI ACT corpus and the second is about the Computer Science corpora.
+Among these experiments, you can find the content of each cluster. Additionally, for each iteration setting, a stacked histogram is provided, showing the number of terms from each cluster in each class of the ground truth. The two histograms below concern the AI ACT corpus and the Computer Science corpora, respectively.
 
 
 
