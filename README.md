@@ -1,6 +1,7 @@
 # CO-ISSC: Core Ontology-based Incremental Semi-Supervised Clustering
 
-The CO-ISSC pipeline combines, in an incremental process, a semi-supervised dimension reduction technique (semi-supervised UMAP) and a semi-supervised clustering method (adapted C-DBSCAN). Additionally, it uses two types of prior knowledge: (1) a PLM, and (2) a core ontology. The figure below shows its architecture. The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act benchmark.
+The CO-ISSC pipeline combines, in an incremental process, a semi-supervised dimension reduction technique (semi-supervised UMAP) and a semi-supervised clustering method (adapted C-DBSCAN). Additionally, it uses two types of prior knowledge: (1) a PLM, and (2) a core ontology. The figure below shows its architecture. 
+The CO-ISSC pipeline is evaluated using the AI Act text and the AI Act benchmark, as described in the paper. It is also applied on a Computer Science copora (the link of the hao's paper).  The results of computer science experiments can be found in mytest.ipynb.  
 
 
 <div align=center> 
@@ -13,7 +14,9 @@ This project includes the three files:
 
  1. AI ACT Core ontology.
  2. The AI ACT terminology including 900 terms that have been extracted, filtered, and manually classified according to AI Act core concepts.
- 3. Source code and dataset:
+ 3. Computer Science Core ontology
+ 4. Computer Science terminology including 2560 terms classified according to the Computer Science core concepts
+ 5. Source code and dataset:
    
  ##  Below is the organization of the code.
 ``` 
@@ -51,7 +54,16 @@ pip install -r requirements.txt
 
 Then, open the file [proposition.ipynb](./CO-ISSC/proposition.ipynb) and run it.
 
-Also, you can see all the experiments conducted in [mytest.ipynb](./CO-ISSC/mytest.ipynb)
+Also, you can see all the experiments conducted in [mytest.ipynb](./CO-ISSC/mytest.ipynb) on the two corpora: AI ACT corpus and Computer Science corpora.  
+
+Among these experiments, you can find the content of ecah cluster. In addition, for each iteartion setting a stacked hitogram is provided describing the number of terms of each cluster in each class. In the following two histograms, one is about the the AI ACT corpus and the second is about the Computer Science corpora.
+
+
+
+tO ADD the HITOGRAMS
+Distribution of clusters in ecah class for Computer Science
+tO ADD the HITOGRAMS
+Distribution of clusters in ecah class for AI ACT
 
 
 
