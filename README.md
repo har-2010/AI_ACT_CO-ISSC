@@ -66,7 +66,7 @@ Among these experiments, you can find the content of each cluster. Additionally,
 <img src="./CO-ISSC/CS histogram.png" width = 49%>
 </div> 
 <div align=center>
-Fig: Distribution of clusters in ecah class: left is AI ACT corpus and right is Computer Science corpora. 
+Number of Terms from Each Cluster in Each Class: AI ACT Corpus (left) and Computer Science Corpora (right). 
 </div>
 
 
