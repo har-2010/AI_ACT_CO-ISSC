@@ -600,7 +600,7 @@ class Model():
                     self.embedding[clustered, 0],
                     self.embedding[clustered, 1],
                     # self.embedding[clustered, 2],
-                    s=0.5,
+                    s=2,
                     alpha=0.8,
                     c=colors)
 
@@ -610,7 +610,7 @@ class Model():
                     self.embedding[~clustered, 1],
                     # self.embedding[~clustered, 2],
                     color=(0.5, 0.5, 0.5),
-                    s=0.5,
+                    s=2,
                     alpha=0.8)
 
         # plot the core concepts and "other"
@@ -619,7 +619,7 @@ class Model():
                 self.embedding[index, 0],
                 self.embedding[index, 1],
                 # self.embedding[index, 2],
-                s=20,
+                s=50,
                 label=self.corpus.vocabulary.terms[index] ,
                 marker="x",
                 color=colormap[i] if index != other_index else (0.5,0.5,0.5)
