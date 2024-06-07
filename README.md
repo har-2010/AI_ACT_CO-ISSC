@@ -13,7 +13,7 @@ Fig: The architecture of our pipeline
 
 # Project Structure
 
-This project includes the three files:
+This project includes the five files:
 
  1. AI ACT Core ontology.
  2. The AI ACT terminology including 900 terms that have been extracted, filtered, and manually classified according to AI Act core concepts.
