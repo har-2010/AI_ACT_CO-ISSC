@@ -55,7 +55,7 @@ Before launching the code, you should step into the source code directory and in
 pip install -r requirements.txt
 ```
 
-Then, open the file [proposition.ipynb](./CO-ISSC/proposition.ipynb) and run it.
+Then, open the file [proposition.ipynb](./CO-ISSC/proposition.ipynb) and run it following the instructions.
 
 Also, you can see all the experiments conducted in [mytest.ipynb](./CO-ISSC/mytest.ipynb) on the two corpora: AI ACT corpus and Computer Science corpora.  
 
