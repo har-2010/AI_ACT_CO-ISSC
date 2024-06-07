@@ -1,0 +1,677 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/10258/ontologies/2024/5/untitled-ontology-6"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/10258/ontologies/2024/5/untitled-ontology-6">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#algorithm_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#applications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#approximation_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#augmented_reality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brute_force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cipher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cloud_computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cloud_service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computed_tomography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer_graphics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer_programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer_programming_language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer_vision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer_vision_techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computing_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computing_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cryptanalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cryptography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data_placement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data_processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data_storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data_structures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#database"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ddos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#debugging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decoding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decryption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#detection_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#development_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distributed_computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distributed_computing_platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distributed_program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dynamic_programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elliptic_curve_cryptography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#encryption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#file_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#firewall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#identity-based_cryptography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#image_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#image_processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#image_processing_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#image_segmentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intrusion_detection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#learning_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#machine_learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#machine_learning_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#machine_learning_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#memory_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mobile_operating_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#network_security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#network_security_situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#network_traffic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#networks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neural_networks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-relational_database"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#np-hard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#object_detection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operating_systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#optimization_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pair-programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parallel_and_distributed_computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parallel_computation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parallel_computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parallel_implementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#programmer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#programming_skills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quantum_cryptography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#real-time_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#real_time_operating_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relational_databases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#requirements_engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resource_allocation_algorithm_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#search_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#secret_key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#security_issue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#security_risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#software_development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#software_development_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#software_engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#software_project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#software_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supervised_learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system_architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tracking_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unsupervised_learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vector_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#virtual_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#web_application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wireless_sensor_networks"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#algorithm"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#applications"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#approximation_algorithm"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#augmented_reality"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brute_force"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cipher"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#classification"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cloud_computing"/>
+        <Class IRI="#distributed_computing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cloud_service"/>
+        <Class IRI="#distributed_computing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clustering"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coding"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computed_tomography"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computer_programming_language"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computer_system"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computer_vision"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computer_vision_techniques"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computing_system"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computing_technology"/>
+        <Class IRI="#distributed_computing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cryptanalysis"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#data_placement"/>
+        <Class IRI="#data_structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#data_processing"/>
+        <Class IRI="#data_structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#data_storage"/>
+        <Class IRI="#data_structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#database"/>
+        <Class IRI="#data_structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ddos"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#debugging"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decoding"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decryption"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detection_algorithm"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#development_process"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distributed_computing_platform"/>
+        <Class IRI="#distributed_computing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distributed_program"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dynamic_programming"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elliptic_curve_cryptography"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#encryption"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#file_system"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#firewall"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#identity-based_cryptography"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#image_analysis"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#image_processing"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#image_processing_algorithm"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#image_segmentation"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intrusion_detection"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#learning_algorithm"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#machine_learning_algorithm"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#machine_learning_model"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#memory_system"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mobile_operating_system"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#network_security_situation"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#network_traffic"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#networks"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neural_networks"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-relational_database"/>
+        <Class IRI="#data_structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#np-hard"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#object_detection"/>
+        <Class IRI="#computer_graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optimization_algorithm"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pair-programming"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parallel_and_distributed_computing"/>
+        <Class IRI="#distributed_computing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parallel_computation"/>
+        <Class IRI="#distributed_computing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parallel_computing"/>
+        <Class IRI="#distributed_computing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parallel_implementation"/>
+        <Class IRI="#distributed_computing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#program"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#programmer"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#programming_skills"/>
+        <Class IRI="#computer_programming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quantum_cryptography"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#real-time_system"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#real_time_operating_system"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relational_databases"/>
+        <Class IRI="#data_structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirements_engineering"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource_allocation_algorithm_design"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#search_algorithm"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#secret_key"/>
+        <Class IRI="#cryptography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#security_issue"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#security_risk"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#software"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#software_development"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#software_development_process"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#software_project"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#software_system"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured_data"/>
+        <Class IRI="#data_structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured_storage"/>
+        <Class IRI="#data_structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supervised_learning"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_architecture"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tracking_algorithm"/>
+        <Class IRI="#algorithm_design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unsupervised_learning"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vector_machine"/>
+        <Class IRI="#machine_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#virtual_machine"/>
+        <Class IRI="#operating_systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#web_application"/>
+        <Class IRI="#software_engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wireless_sensor_networks"/>
+        <Class IRI="#network_security"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
